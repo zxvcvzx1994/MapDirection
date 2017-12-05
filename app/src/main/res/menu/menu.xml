@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mapTypeNone"
+        android:title="@string/map_type_none" />
+    <item
+        android:id="@+id/mapTypeTerrain"
+        android:title="@string/map_type_terrain" />
+    <item
+        android:id="@+id/mapTypeSatllite"
+        android:title="@string/map_type_none" />
+    <item
+        android:id="@+id/mapTypeHybrid"
+        android:title="@string/map_type_hibrid" />
+
+</menu>

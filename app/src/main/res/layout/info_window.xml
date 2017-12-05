@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/txtTxt1"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:id="@+id/txtTxt1"
+        android:text="text view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/txtTxt2"
+        android:layout_alignLeft="@+id/txtTxt2"
+        android:layout_alignStart="@+id/txtTxt2" />
+    <TextView
+        android:id="@+id/txtTxt2"
+        android:text="text view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTxt3"
+        android:layout_alignLeft="@+id/txtTxt3"
+        android:layout_alignStart="@+id/txtTxt3" />
+    <TextView
+        android:id="@+id/txtTxt3"
+        android:text="text view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTxt4"
+        android:layout_alignLeft="@+id/txtTxt4"
+        android:layout_alignStart="@+id/txtTxt4" />
+    <TextView
+        android:id="@+id/txtTxt4"
+        android:text="text view"
+        android:textSize="@dimen/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+</RelativeLayout>
